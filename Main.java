@@ -7,8 +7,8 @@ class Main {
     int x = moviePicked.length();
     char[] guess = new char[x];
     for(int a = 0; a < x; a++){
-      guess[a] = '_';//since guess is a char array it must equal double quotes ' '
-      if(moviePicked.charAt(a) == ' ') guess[a] = ' ';//the check must go after because if it was above then guess[3] wouldve again been a underscore.
+      guess[a] = '_';
+      if(moviePicked.charAt(a) == ' ') guess[a] = ' ';
     }
     Scanner sc = new Scanner(System.in);
     boolean charFound = true; //in java its boolean
